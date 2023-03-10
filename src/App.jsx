@@ -1,7 +1,12 @@
+
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+
 import Flowcarousel from './components/carousel'
+import Flowfooter from './components/footer'
 import Flownavbar from './components/navbar'
+import Signin from './components/signin'
+
+
 
 
 function App() {
@@ -9,10 +14,19 @@ function App() {
 
   return (
     <>
+    
+    
+  <div>
     <Flownavbar></Flownavbar>
-    <Flowcarousel></Flowcarousel> 
-    </>
+    
+
    
+
+    <Flowcarousel></Flowcarousel> 
+    <Signin></Signin>
+    <Flowfooter></Flowfooter>
+    </div>
+    </>
   )
 }
 
